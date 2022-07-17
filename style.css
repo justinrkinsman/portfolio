@@ -1,0 +1,42 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'shadows_into_lightregular';
+    src: url('shadowsintolight-regular-webfont.woff2') format('woff2'),
+         url('shadowsintolight-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0px;
+}
+
+body {
+    background-color: #F6F8FF;
+}
+
+#title {
+    font-family: shadows_into_lightregular;
+    background-color: #FFCF00;
+    margin: 0px;
+}
+
+#header {
+    margin: 0px;
+}
+
+#blue {
+    background-color: #00BD9D;
+}
+
+#black {
+    background-color: #040F0F;
+    color: white;
+}
+
+#orange {
+    background-color: #FC440F
+}

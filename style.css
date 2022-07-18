@@ -59,6 +59,10 @@ h2 {
     flex-direction: row;
 }
 
+#aboutMeText{
+    background-color: #FF440F;
+}
+
 #contactMe {
     display: grid;
     column-gap: 20px;

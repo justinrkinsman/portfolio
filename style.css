@@ -57,6 +57,7 @@ h2 {
 #aboutMe {
     display: flex;
     flex-direction: row;
+    margin: 5px;
 }
 
 #aboutMeText{
@@ -67,6 +68,7 @@ h2 {
     display: grid;
     column-gap: 20px;
     grid-template-columns: 40px 1fr;
+    margin: 5px;
 }
 
 [id^="contactInfo"]{

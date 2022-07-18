@@ -53,3 +53,20 @@ h2 {
 [id^="projectImage"]{
     background-color: #00BD9D;
 }
+
+#aboutMe {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactMe {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 40px 1fr;
+}
+
+[id^="contactInfo"]{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

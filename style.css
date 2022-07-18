@@ -15,28 +15,41 @@ html, body {
 }
 
 body {
-    background-color: #F6F8FF;
+    background-color: #df7aec;
 }
 
 #title {
     font-family: shadows_into_lightregular;
-    background-color: #FFCF00;
     margin: 0px;
+    justify-self: center;
 }
 
 #header {
+    background-color: #FFCF00;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#blue {
+#body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+[id^="project"]{
+    background-color: #FF440F
+}
+
+[id^="projectImage"]{
     background-color: #00BD9D;
-}
-
-#black {
-    background-color: #040F0F;
-    color: white;
-}
-
-#orange {
-    background-color: #FC440F
 }

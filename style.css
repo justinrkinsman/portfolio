@@ -15,7 +15,10 @@ html, body {
 }
 
 body {
-    background-color: #df7aec;
+    background-color: #ecfeff;
+    /*animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
 }
 
 #title {
@@ -25,12 +28,12 @@ body {
 }
 
 #header {
-    background-color: #FFCF00;
     margin: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    width: 50%
 }
 
 #body {
@@ -38,6 +41,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
     margin: 5px;
+    width: 75%;
 }
 
 h2 {
@@ -47,23 +51,20 @@ h2 {
 }
 
 [id^="project"]{
-    background-color: #FF440F;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    background-color: #155e75;
 }
 
-@keyframes fadeInAnimation {
+/*@keyframes fadeInAnimation {
     0% {
         opacity: 0%;
     }
     100% {
         opacity: 100%;
     }
-}
+}*/
 
 [id^="projectImage"]{
-    background-color: #00BD9D;
+    background-color: #0e7490;
 }
 
 #aboutMe {
@@ -73,7 +74,8 @@ h2 {
 }
 
 #aboutMeText{
-    background-color: #FF440F;
+    background-color: #155e75;
+    color: #94a3b8;
 }
 
 #contactMe {
@@ -87,4 +89,23 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+#wholeShebang {
+    display: flex;
+    flex-direction: column;
+    background-color: #67e8f9;
+    border-radius: 25px;
+    align-items: center;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+[id^="projectTitle"], [id^="projectDescriptiveText"]{
+    color: #94a3b8
 }
